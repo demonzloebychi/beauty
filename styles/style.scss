@@ -9,10 +9,10 @@ $maxWidth: 1920;
         font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw  / #{$maxWidth}));
     }
 }
-$main-color : #cdb39c;
-$hover-color : #b9a38f;
-$btn-color: #000000;
-$btn-bg-color: #BC987E;
+$main-color : #000000;
+//#cdb39c #b9a38f
+$hover-color : #3f3f3f;
+$btn-color: #ffffff;
 
 ::-webkit-scrollbar {
     width: 0;
@@ -28,7 +28,8 @@ html{
     border: none;
     display: block;
     padding: 10px 30px;
-    @include adaptiv-font(20, 16)
+    @include adaptiv-font(20, 16);
+    color: $btn-color;
 }
 .btn:hover {
     background-color: $hover-color;
@@ -41,7 +42,7 @@ html{
 }
 .s-title {
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     @include adaptiv-font(20, 20);
 }
 .wrappper {
@@ -65,7 +66,8 @@ html{
     left: 0;
     z-index: 50;
     position: fixed;
-    background: $main-color;
+    background: #fff;
+    border-bottom: 1px solid #535353;
 }
 .header::before {
     content: " ";
