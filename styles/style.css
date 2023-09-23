@@ -288,13 +288,13 @@
   padding-left: 20px;
 }
 
-.input::focus {
-  border: 1px solid #e99be4;
+.submit {
+  width: 200px;
+  height: 55px;
 }
 
-.sign__btn {
-  display: flex;
-  justify-content: center;
+.input::focus {
+  border: 1px solid #e99be4;
 }
 
 .footer {

@@ -267,12 +267,12 @@ $btn-color: #000000;
     border: 1px solid $main-color;
     padding-left: 20px;
 }
+.submit{
+    width: 200px;
+    height: 55px;
+}
 .input::focus{
     border: 1px solid $hover-color;
-}
-.sign__btn{
-    display: flex;
-    justify-content: center;
 }
 
 .footer{
