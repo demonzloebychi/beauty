@@ -1,5 +1,15 @@
+@charset "UTF-8";
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 .btn {
-  background-color: #ffb2f9;
+  background-color: #cdb39c;
   border-radius: 10px;
   border: none;
   display: block;
@@ -17,7 +27,7 @@
 }
 
 .btn:hover {
-  background-color: #e99be4;
+  background-color: #b9a38f;
 }
 
 .title {
@@ -71,7 +81,7 @@
   left: 0;
   z-index: 50;
   position: fixed;
-  background: #ffb2f9;
+  background: #cdb39c;
 }
 
 .header::before {
@@ -186,7 +196,7 @@
     left: 0;
     width: 100%;
     height: 50%;
-    background-color: #ffb2f9;
+    background-color: #cdb39c;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -284,7 +294,7 @@
 .input {
   height: 60px;
   border-radius: 10px;
-  border: 1px solid #ffb2f9;
+  border: 1px solid #cdb39c;
   padding-left: 20px;
 }
 
@@ -294,7 +304,7 @@
 }
 
 .input::focus {
-  border: 1px solid #e99be4;
+  border: 1px solid #b9a38f;
 }
 
 .footer {

@@ -9,9 +9,18 @@ $maxWidth: 1920;
         font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw  / #{$maxWidth}));
     }
 }
-$main-color : #ffb2f9;
-$hover-color : #e99be4;
+$main-color : #cdb39c;
+$hover-color : #b9a38f;
 $btn-color: #000000;
+$btn-bg-color: #BC987E;
+
+::-webkit-scrollbar {
+    width: 0;
+}
+html{
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
 
 .btn {
     background-color: $main-color;
