@@ -6,7 +6,7 @@ $to  = 'redbirds@mail.ru';
 $subject = 'Запись на макияж';
 
 // текст письма меняется он!!
-$message = $_POST['name'] . '<br />' . $_POST['text'] ;
+$message = $_POST['name'] . '<br />' . $_POST['number'] ;
 
 // Для отправки HTML-письма должен быть установлен заголовок Content-type
 $headers  = 'MIME-Version: 1.0' . "\r\n";
