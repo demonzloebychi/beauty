@@ -15,6 +15,7 @@ $main-color : #000000;
 $hover-color : #3f3f3f;
 $btn-color: #ffffff;
 
+
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -35,17 +36,25 @@ html{
 .btn:hover {
     background-color: $hover-color;
 }
+
+.l-title{
+    font-family: 'Gloock', serif; 
+    font-weight: 400;
+    @include adaptiv-font(60,38)
+}
 .title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gloock', sans-serif;                                             
     font-weight: 500;
     @include adaptiv-font(50, 26);
     text-align: center;
 }
 .s-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Gloock', sans-serif;
     font-weight: 400;
     @include adaptiv-font(20, 20);
 }
+
+
 .wrappper {
     min-height: 100%;
     overflow: hidden;
@@ -86,18 +95,6 @@ html{
     align-items: center;
     height: 100px;
 }
-.header-main__logo {
-    position: relative;
-    z-index: 3;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    img{
-        display: block;
-        width: 70px;
-    }
-}
 
 .header-main__burger {
     display: none;
@@ -110,7 +107,6 @@ html{
     position: relative;
     z-index: 2;
     font-weight: 500;
-    border-bottom: 1px solid #535353;
 }
 .header-main__item:hover {
     border-bottom: 2px solid;
@@ -186,6 +182,7 @@ html{
         justify-content: center;
         align-items: center;
         transition: all 0.3s ease 0s;
+        border-bottom: 1px solid #535353;
     }
     .header-main__menu.active{
         top: 0;
@@ -251,8 +248,8 @@ html{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    background-color: #ececec;
-    border-radius: 30px;
+    background-color: #f5f5f5;
+    border-radius: 20px;
     padding: 15px;
 }
 .portfolio__image {
@@ -260,7 +257,7 @@ html{
 
 }
 .portfolio__image img{
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 
