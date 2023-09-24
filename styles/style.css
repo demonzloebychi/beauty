@@ -33,12 +33,12 @@ html {
 }
 @media (max-width: 767px) {
   .btn {
-    font-size: calc(16px + 6.8 * ((100vw - 320px) / 1920));
+    font-size: calc(16px + 3.4 * ((100vw - 320px) / 1920));
   }
 }
 @media (min-width: 767px) {
   .btn {
-    font-size: calc(16px + 4 * (100vw / 1920));
+    font-size: calc(16px + 2 * (100vw / 1920));
   }
 }
 
