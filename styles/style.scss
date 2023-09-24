@@ -16,6 +16,12 @@ $hover-color : #3f3f3f;
 $btn-color: #ffffff;
 
 
+.header__logo {
+    font-family: 'Gloock', serif; 
+    font-weight: 400;
+    @include adaptiv-font(60,38);
+}
+
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -37,19 +43,15 @@ html{
     background-color: $hover-color;
 }
 
-.l-title{
-    font-family: 'Gloock', serif; 
-    font-weight: 400;
-    @include adaptiv-font(60,38)
-}
+
 .title {
-    font-family: 'Gloock', sans-serif;                                             
+    font-family: 'Lora', sans-serif;                                             
     font-weight: 500;
     @include adaptiv-font(50, 26);
     text-align: center;
 }
 .s-title {
-    font-family: 'Gloock', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-weight: 400;
     @include adaptiv-font(20, 20);
 }
