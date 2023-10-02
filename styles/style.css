@@ -85,21 +85,23 @@ html {
   background: #FFFFFF;
   border-bottom: 1px solid #535353;
 }
-.header .header__logo {
+
+.header__logo {
   font-family: "Gloock", serif;
   font-weight: 400;
 }
 @media (max-width: 767px) {
-  .header .header__logo {
+  .header__logo {
     font-size: calc(38px + 37.4 * ((100vw - 320px) / 1920));
   }
 }
 @media (min-width: 767px) {
-  .header .header__logo {
+  .header__logo {
     font-size: calc(38px + 22 * (100vw / 1920));
   }
 }
-.header .header::before {
+
+.header::before {
   content: " ";
   position: absolute;
   top: 0;
@@ -108,17 +110,20 @@ html {
   height: 100%;
   z-index: 2;
 }
-.header .header-main {
+
+.header-main {
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 100px;
 }
-.header .header-main__burger {
+
+.header-main__burger {
   display: none;
 }
-.header .header-main__menu {
+
+.header-main__menu {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -127,7 +132,8 @@ html {
   z-index: 2;
   font-weight: 500;
 }
-.header .header-main__item:hover {
+
+.header-main__item:hover {
   border-bottom: 2px solid;
   transition: border_bottom 1s;
 }
